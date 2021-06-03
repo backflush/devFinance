@@ -11,7 +11,7 @@ _"Have a financial control about incomes and expensives."_
 
 ## Why?
 
-This project is part of my personal portfolio, it was developed during a marathon called Maratona Discovery provided by Rocketseat, so, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
+This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, so, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
 
 Reach me at: bwesleysouza@gmail.com
 
@@ -46,6 +46,9 @@ $ git@github.com:SouzWesley/devFinance.git
 
 $ cd devFinance
 ```
+**Running...**
+
+Just open the index.html file and it should work.
 
 ## Build with
 
