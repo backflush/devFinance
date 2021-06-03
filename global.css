@@ -1,0 +1,283 @@
+:root{
+    --backgroundColor: #f0f2f5;
+    --headerBackgroundColor: #2d4a22;
+    --primaryHeaderColor: #ffffff;
+    --secundaryHeaderColor: #363f5f;
+    --cardBackgroundColor: #ffffff;
+    --textCardColor: #363f5f;
+    --cardTotalTextColor: #ffffff;
+    --cardTotalBackgroundColor: #49aa26;
+    --tableTdBackgroundColor: #ffffff;
+    --tableThBackgroundColor: #ffffff;
+    --tableTextColor: #969cb3;
+    --tdDescriptionColor: #363f5f;
+    --tdIncomeColor: #12a454;
+    --tdExpenseColor: #e92929;
+    --footerTextColor: #363f5f;
+    --modalOverlayColor: rgba(0, 0, 0, 0.7);
+    --modalColor: #f0f2f5;
+    --buttonTextColor: #ffffff;
+    --ctaButtonColor: #49aa26;
+    --ctaButtonColorHover: #3dd705;
+    --dangerButtonColor: #e92929;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 93.75%;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+header {
+    background-color: var(--headerBackgroundColor);
+    padding: 2rem 0 12rem;
+    text-align: center;
+}
+
+#logo {
+    color: var(--primaryHeaderColor);
+    font-weight: 100;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+#balance {
+    margin-top: -8rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--secundaryHeaderColor);
+    font-weight: normal;
+}
+
+#balance h2{
+    color: var(--primaryHeaderColor);
+    margin-top: 0;
+}
+
+.card {
+    background-color: var(--cardBackgroundColor);
+    color: var(--textCardColor);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+
+}
+
+.card h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.card.total {
+    background-color: var(--cardTotalBackgroundColor);
+    color: var(--cardTotalTextColor);
+}
+
+a {
+    color: var(--ctaButtonColor);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ctaButtonColorHover);
+}
+
+.button.new {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+#transaction {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: var(--tableTextColor);
+}
+
+table thead th {
+    background-color: var(--tableThBackgroundColor);
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+    border-radius: 0.25rem;
+}
+
+table tbody td {
+    background-color: var(--tableTdBackgroundColor);
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+}
+
+table tbody tr {
+    opacity: 0.7;
+}
+
+table tbody tr:hover{
+    opacity: 1;
+}
+
+td.description {
+    color: var(--tdDescriptionColor);
+}
+
+td.income {
+    color: var(--tdIncomeColor);
+}
+
+td.expense {
+    color: var(--tdExpenseColor);
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    color: var(--footerTextColor);
+    opacity: 0.6;
+}
+
+.modal-overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--modalOverlayColor);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background-color: var(--modalColor);
+    padding: 2.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+#form {
+    max-width: 500px;
+}
+
+#form h2 {
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.input-group{
+    margin-top: 0.8rem;
+}
+
+.input-group small {
+    opacity: 0.4;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button, .input-group.actions button {
+    width: 48%;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: var(--buttonTextColor);
+    background-color: var(--ctaButtonColor);
+    padding: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: ease 280ms;
+}
+
+button:hover {
+    background-color: var(--ctaButtonColorHover);
+}
+
+.button.cancel {
+    color: var(--dangerButtonColor);
+    border: 2px solid var(--dangerButtonColor);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    opacity: 0.8;
+}
+
+.button.cancel:hover{
+    opacity: 1;
+    transition: ease 280ms;
+}
+
+@media (min-width: 800px){
+    html {
+        font-size: 87.5%;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
