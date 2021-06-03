@@ -42,7 +42,7 @@ To run this project in your machine, you won't need anything, it was developed w
 **Cloning the Repository**
 
 ```
-$ git@github.com:safadeusUX/devFinance.git
+$ git@github.com:SouzWesley/devFinance.git
 
 $ cd devFinance
 ```
