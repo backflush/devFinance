@@ -1,7 +1,5 @@
 # dev.finance$
-![Preview-Screen](./assets/devFinance.jpeg)
-
-If you want to take a look on all screens of the application, they are [here](https://drive.google.com/drive/folders/1KpQa-n8hfx501etg3RmDzXHexxwgnRz9?usp=sharing).
+![Preview-Screen](./assets/devFinanceCover.png)
 
 ## About this project
 
@@ -15,7 +13,7 @@ This project is part of my personal portfolio, it was developed during a maratho
 
 Reach me at: bwesleysouza@gmail.com
 
-Connect with me at [LinkedIn](https://www.linkedin.com/in/).
+Connect with me at [LinkedIn](https://www.linkedin.com/in/bwesleysouza).
 
 And you can use this project as you wish!
 
@@ -59,7 +57,7 @@ Reach me at: bwesleysouza@gmail.com
 
 _or_
 
-Try it: [LinkedIn](https://www.linkedin.com/in/)
+Try it: [LinkedIn](https://www.linkedin.com/in/bwesleysouza)
 
 Thank you!
 
