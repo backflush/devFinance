@@ -1,25 +1,26 @@
 :root{
-    --backgroundColor: #f0f2f5;
-    --headerBackgroundColor: #2d4a22;
-    --primaryHeaderColor: #ffffff;
-    --secundaryHeaderColor: #363f5f;
-    --cardBackgroundColor: #ffffff;
-    --textCardColor: #363f5f;
-    --cardTotalTextColor: #ffffff;
-    --cardTotalBackgroundColor: #49aa26;
-    --tableTdBackgroundColor: #ffffff;
-    --tableThBackgroundColor: #ffffff;
-    --tableTextColor: #969cb3;
-    --tdDescriptionColor: #363f5f;
-    --tdIncomeColor: #12a454;
-    --tdExpenseColor: #e92929;
-    --footerTextColor: #363f5f;
-    --modalOverlayColor: rgba(0, 0, 0, 0.7);
-    --modalColor: #f0f2f5;
-    --buttonTextColor: #ffffff;
-    --ctaButtonColor: #49aa26;
-    --ctaButtonColorHover: #3dd705;
-    --dangerButtonColor: #e92929;
+    --light-gray-1: #f0f2f5;
+    --light-gray-2: #f0f2f5;
+    --light-gray-3: #969cb3;
+
+    --white: #ffffff;
+    --white: #ffffff;
+    --white: #ffffff;
+    --white: #ffffff;
+    --white: #ffffff;
+    --white: #ffffff;
+
+    --dark-gray-1: #363f5f;
+    --dark-gray-2: #000000b3;
+
+    --red: #e92929;
+    --red: #e92929;
+
+    --green-1: #12a454;
+    --green-2: #49aa26;
+    --green-hover-2: #3dd705;
+    --green-3: #49aa26;
+    --green-4: #2d4a22;
 }
 
 * {
@@ -35,17 +36,17 @@ html {
 }
 
 body {
-    background-color: var(--backgroundColor);
+    background-color: var(--light-gray-1);
 }
 
 header {
-    background-color: var(--headerBackgroundColor);
+    background-color: var(--green-4);
     padding: 2rem 0 12rem;
     text-align: center;
 }
 
 #logo {
-    color: var(--primaryHeaderColor);
+    color: var(--white);
     font-weight: 100;
 }
 
@@ -73,18 +74,18 @@ header {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: var(--secundaryHeaderColor);
+    color: var(--dark-gray-1);
     font-weight: normal;
 }
 
 #balance h2{
-    color: var(--primaryHeaderColor);
+    color: var(--white);
     margin-top: 0;
 }
 
 .card {
-    background-color: var(--cardBackgroundColor);
-    color: var(--textCardColor);
+    background-color: var(--white);
+    color: var(--dark-gray-1);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
     margin-bottom: 2rem;
@@ -106,17 +107,17 @@ h2 {
 }
 
 .card.total {
-    background-color: var(--cardTotalBackgroundColor);
-    color: var(--cardTotalTextColor);
+    background-color: var(--green-3);
+    color: var(--white);
 }
 
 a {
-    color: var(--ctaButtonColor);
+    color: var(--green-2);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--ctaButtonColorHover);
+    color: var(--green-hover-2);
 }
 
 .button.new {
@@ -133,11 +134,11 @@ a:hover {
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: var(--tableTextColor);
+    color: var(--light-gray-3);
 }
 
 table thead th {
-    background-color: var(--tableThBackgroundColor);
+    background-color: var(--white);
     font-weight: normal;
     padding: 1rem 2rem;
     text-align: left;
@@ -145,7 +146,7 @@ table thead th {
 }
 
 table tbody td {
-    background-color: var(--tableTdBackgroundColor);
+    background-color: var(--white);
     padding: 1rem 2rem;
     border-radius: 0.25rem;
 }
@@ -159,28 +160,28 @@ table tbody tr:hover{
 }
 
 td.description {
-    color: var(--tdDescriptionColor);
+    color: var(--dark-gray-1);
 }
 
 td.income {
-    color: var(--tdIncomeColor);
+    color: var(--green-1);
 }
 
 td.expense {
-    color: var(--tdExpenseColor);
+    color: var(--red);
 }
 
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--footerTextColor);
+    color: var(--dark-gray-1);
     opacity: 0.6;
 }
 
 .modal-overlay {
     width: 100vw;
     height: 100vh;
-    background-color: var(--modalOverlayColor);
+    background-color: var(--dark-gray-2);
     position: fixed;
     top: 0;
     display: flex;
@@ -197,7 +198,7 @@ footer {
 }
 
 .modal {
-    background-color: var(--modalColor);
+    background-color: var(--light-gray-2);
     padding: 2.4rem;
     position: relative;
     z-index: 1;
@@ -242,8 +243,8 @@ button {
     width: 100%;
     height: 50px;
     border: none;
-    color: var(--buttonTextColor);
-    background-color: var(--ctaButtonColor);
+    color: var(--white);
+    background-color: var(--green-2);
     padding: 0;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -251,12 +252,12 @@ button {
 }
 
 button:hover {
-    background-color: var(--ctaButtonColorHover);
+    background-color: var(--green-hover-2);
 }
 
 .button.cancel {
-    color: var(--dangerButtonColor);
-    border: 2px solid var(--dangerButtonColor);
+    color: var(--red);
+    border: 2px solid var(--red);
     height: 50px;
     display: flex;
     align-items: center;
