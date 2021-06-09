@@ -1,5 +1,5 @@
-# dev.finance$
-![Preview-Screen](./assets/devFinanceCover.png)
+# Dev.finance$
+![Preview-Screen](./public/assets/devFinanceCover.png)
 
 ## About this project
 
