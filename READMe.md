@@ -9,7 +9,7 @@ _"Have a financial control about incomes and expensives."_
 
 ## Why?
 
-This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, I tried to evolve the project, changing the architectural pattern, that didn't exist to MVC. So, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
+This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, I tried to evolve the project, changed the architectural pattern, that didn't exist to MVC. So, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
 
 Reach me at: bwesleysouza@gmail.com
 
@@ -77,7 +77,7 @@ The project will be locate at the port **localhost:3000**
 
 ## Contribuing
 
-It was developed by me during one of many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I tried to evolve the project, changing the architectural pattern, that didn't exist to MVC. I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
+It was developed by me during one of many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I tried to evolve the project, changed the architectural pattern that didn't exist to MVC. I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
 
 Reach me at: bwesleysouza@gmail.com
 
