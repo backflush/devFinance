@@ -25,7 +25,7 @@ And you can use this project as you wish!
 
 - You can add as many incomes/expenses as you want.
 
-- We calculate the difference between your incomes and expenses, returning to you a total where you can see if you are negative or positive.
+- It calculates the difference between your incomes and expenses, returning to you a total where you can see if you hava a negative or positive balance.
 
 ## Getting started
 
