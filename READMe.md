@@ -9,7 +9,7 @@ _"Have a financial control about incomes and expensives."_
 
 ## Why?
 
-This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, so, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
+This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, I tried to evolve the project, changing the architectural pattern, that didn't exist to MVC. So, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
 
 Reach me at: bwesleysouza@gmail.com
 
@@ -19,21 +19,19 @@ And you can use this project as you wish!
 
 ## Some Observations about this application
 
-1 - There isn't a functionality of Login/Register, just add an income or expense.
+1 - There isn't a functionality of Login/Register.
 
 ## Functionalities
-
-- You can see all of your incomes/expenses.
 
 - You can add as many incomes/expenses as you want.
 
 - We calculate the difference between your incomes and expenses, returning to you a total where you can see if you are negative or positive.
 
-- The entire data is saved in localStorage.
-
 ## Getting started
 
-To run this project in your machine, you won't need anything, it was developed with vanilla JavaScript, HTML and CSS. Just open the HTML file and it should work.
+### Prerequisites
+
+To run this project in the development mode, you'll need to have NodeJS that can be found [here](https://nodejs.org/en/).
 
 ### Installing
 
@@ -44,17 +42,42 @@ $ git clone git@github.com:SouzWesley/devFinance.git
 
 $ cd devFinance
 ```
-**Running...**
 
-Just open the index.html file and it should work.
+**Installation dependencies**
+
+```
+$ yarn install
+```
+
+_or_
+
+```
+$ npm install
+```
+
+### Running
+
+With all dependencies installed, the database created and the environment properly configured, you can now run the application:
+
+```
+$ npm run dev
+```
+
+```
+$ yarn dev
+```
+
+The project will be locate at the port **localhost:3000**
 
 ## Build with
 
-- Pure HTML, CSS and JavaScript
+- [Express](http://expressjs.com/) - Complements NodeJS with some web application features
+- [Nodemon](https://nodemon.io/) - Reloads the application
+- [EJS](https://ejs.co/) - Used to let JavaScript's code in HTML 
 
 ## Contribuing
 
-It was developed by me during one of many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
+It was developed by me during one of many Rocketseat's Discover Plataform projects, my tutor was [Mayk Brito](https://github.com/maykbrito). I tried to evolve the project, changing the architectural pattern, that didn't exist to MVC. I'll be glad to receive any feedback about something that a I need to redo. And if you have any question....
 
 Reach me at: bwesleysouza@gmail.com
 
