@@ -1,4 +1,4 @@
-# Dev.finance$
+# dev.finance$
 ![Preview-Screen](./public/assets/devFinanceCover.png)
 
 ## About this project
