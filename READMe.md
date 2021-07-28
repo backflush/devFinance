@@ -19,7 +19,7 @@ And you can use this project as you wish!
 
 ## Some Observations about this application
 
-1 - There isn't a functionality of Login/Register.
+- There isn't a functionality of Login/Register.
 
 ## Functionalities
 
