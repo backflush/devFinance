@@ -9,7 +9,7 @@ _"Have a financial control about incomes and expensives."_
 
 ## Why?
 
-This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, I tried to evolve the project, changed the architectural pattern that didn't exist to MVC. So, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
+This project is part of my personal portfolio, it was developed during one of many Rocketseat's Discover Plataform projects, so, I'll be happy if you could send me any feedback about the project, code, structure or anything that you can report that could make me better as a developer!
 
 Reach me at: bwesleysouza@gmail.com
 
